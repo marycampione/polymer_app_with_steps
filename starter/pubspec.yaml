@@ -1,0 +1,8 @@
+name: starter
+description: A sample web application
+dependencies:
+  browser: any
+  polymer: '>=0.15.0 <0.16.0'
+transformers:
+- polymer:
+    entry_points: web/index.html
